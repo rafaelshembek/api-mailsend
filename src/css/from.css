@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7712d5;
+}
+.inputLabel{
+    display: flex;
+    flex-direction: column;
+}
+.contatoForm input{
+    border: none;
+    height: 43px;
+    outline: none;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+.contatoForm textarea{
+    outline: none;
+    border: none;
+    height: 100px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 4px;
+}
+.contatoForm .label{
+    font-size: 11pt;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    font-family: 'Roboto';
+    padding: 12px 0;
+}
